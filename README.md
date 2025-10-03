@@ -1,6 +1,6 @@
 # 📐 drawio‑repo
 
-Repositório de **diagramas** e **bibliotecas XML personalizadas** para uso no [draw.io](https://app.diagrams.net).
+Repositório de **diagramas** e **bibliotecas XML personalizadas** para uso no [Draw.io](https://app.diagrams.net).
 
 ---
 
