@@ -31,23 +31,26 @@ MAJOR.MINOR.PATCH
 
 ## 📌 Fluxo sugerido
 
-1. Atualize o arquivo `CHANGELOG.md` com a nova versão.  
-2. Faça commit:  
+1. Atualize o arquivo `CHANGELOG.md` com a nova versão.
+2. Faça commit:
    ```bash
-   docs(changelog): atualiza versão para 1.1.0 com nova biblioteca
+   docs(changelog): registra versão 1.0.1
    ```
-3. Crie uma **tag de versão**:  
+   > Descrição: Inclui ajustes no diagrama `teste-draw-io.drawio`
+3. Atualize também este `VERSIONING.md` com a nova versão.
+4. Crie uma **tag de versão**:
    ```bash
-   git tag -a v1.1.0 -m "Versão 1.1.0 - adiciona biblioteca de monitores"
-   git push origin v1.1.0
+   git tag -a v1.0.1 -m "Versão 1.0.1 - atualiza teste-draw-io.drawio"
+   git push origin v1.0.1
    ```
-4. No GitHub, a tag aparecerá em **Releases**.  
+5. No GitHub, a tag aparecerá em **Releases**.
 
 ---
 
 ## 📌 Exemplo prático
 
 - Criou repo → `1.0.0`  
+- Atualizou `teste-draw-io.drawio` → `1.0.1`  
 - Adicionou `monitores.xml` → `1.1.0`  
 - Corrigiu erro em `processadores.xml` → `1.1.1`  
 - Reorganizou toda a estrutura → `2.0.0`  
