@@ -21,7 +21,7 @@ Este guia define como escrever mensagens de commit padronizadas, seguindo o padr
 
 - **feat** → quando adiciona algo novo  
 - **fix** → quando corrige um erro  
-- **docs** → mudanças em documentação (README, CHANGELOG, etc.)  
+- **docs** → mudanças em documentação (README, CHANGELOG, VERSIONING etc.)  
 - **chore** → manutenção (sem impacto direto para usuário final)  
 - **refactor** → reorganização interna (sem alterar funcionalidade)  
 - **style** → ajustes de formatação ou nomes (sem impacto funcional)  
@@ -37,19 +37,22 @@ Este guia define como escrever mensagens de commit padronizadas, seguindo o padr
 
 ---
 
-## 📌 Exemplo de fluxo com changelog
+## 📌 Exemplo real aplicado neste repositório
 
 ### Commit
 ```
-feat(bibliotecas): adiciona biblioteca de monitores
+fix(diagramas): atualiza teste-draw-io.drawio
 ```
 
-### Changelog
+### Changelog correspondente
 ```markdown
 ## [1.0.1] - 2025-10-04
-### Adicionado
-- Nova biblioteca `monitores.xml` (commit: abc1234)
+### Corrigido
+- Atualizado `teste-draw-io.drawio` com ajustes no diagrama principal
 ```
+
+### Versionamento
+- Esta alteração corresponde a um **PATCH**, avançando a versão de `1.0.0` → `1.0.1`.
 
 ---
 
