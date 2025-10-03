@@ -11,6 +11,10 @@ O formato segue as recomendações do [Keep a Changelog](https://keepachangelog.
 - Adição de novas bibliotecas para conectores de vídeo
 - Ajustes futuros nos diagramas e melhorias no README
 
+## [1.0.1] - 2025-10-04
+### Corrigido
+- Atualizado `teste-draw-io.drawio` com ajustes no diagrama principal
+
 ## [1.0.0] - 2025-10-03
 ### Adicionado
 - Pastas `bibliotecas/` e `diagramas/`
